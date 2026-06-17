@@ -1,0 +1,52 @@
+{
+  "engineers": {
+    "2348012345678": {
+      "id": "ENG001",
+      "name": "Adebayo Okafor",
+      "siteId": "vi_site_a"
+    },
+    "2348023456789": {
+      "id": "ENG002",
+      "name": "Ngozi Eze",
+      "siteId": "lekki_site_b"
+    },
+    "2348034567890": {
+      "id": "ENG003",
+      "name": "Chidi Obiora",
+      "siteId": "ikeja_site_c"
+    }
+  },
+
+  "sites": {
+    "vi_site_a": {
+      "name": "Victoria Island — Site A",
+      "workers": [
+        { "id": "LAB001", "name": "Emeka Nwosu",   "role": "Labourer" },
+        { "id": "LAB002", "name": "Yusuf Musa",    "role": "Labourer" },
+        { "id": "LAB003", "name": "Taiwo Adeleke", "role": "Labourer" },
+        { "id": "LAB004", "name": "Kelechi Obi",   "role": "Labourer" },
+        { "id": "MAS001", "name": "Bola Adesanya", "role": "Mason"    },
+        { "id": "MAS002", "name": "Gbenga Alabi",  "role": "Mason"    }
+      ]
+    },
+    "lekki_site_b": {
+      "name": "Lekki — Site B",
+      "workers": [
+        { "id": "LAB005", "name": "Musa Garba",     "role": "Labourer"  },
+        { "id": "LAB006", "name": "Tunde Adeola",   "role": "Labourer"  },
+        { "id": "LAB007", "name": "Ifeanyi Onwuka", "role": "Labourer"  },
+        { "id": "MAS003", "name": "Chioma Okafor",  "role": "Mason"     },
+        { "id": "CAR001", "name": "Sunday Abiodun", "role": "Carpenter" }
+      ]
+    },
+    "ikeja_site_c": {
+      "name": "Ikeja — Site C",
+      "workers": [
+        { "id": "LAB008", "name": "Ahmed Sule",      "role": "Labourer" },
+        { "id": "LAB009", "name": "Segun Babatunde", "role": "Labourer" },
+        { "id": "LAB010", "name": "Blessing Eze",    "role": "Labourer" },
+        { "id": "MAS004", "name": "Olu Martins",     "role": "Mason"    }
+      ]
+    }
+  }
+}

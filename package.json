@@ -1,0 +1,19 @@
+{
+  "name": "site-attendance-bot",
+  "version": "3.0.0",
+  "description": "WhatsApp attendance bot for multi-site construction. Engineers check in with location, then log worker pay — all via guided chat.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "googleapis": "^140.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
